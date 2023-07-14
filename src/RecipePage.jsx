@@ -23,7 +23,7 @@ const RecipePage = () => {
             key={item.idMeal}
             className="flex flex-col items-center m-5 w-screen h-screen"
           >
-            <div className="w-[20vw] h-[20vh] border-2 p-2">
+            <div className="w-[30vw] h-[20vh] border-2 p-2">
               <img className="image-contain" src={item.strMealThumb} alt="" />
             </div>
             <div className="border-2">{item.strMeal}</div>
